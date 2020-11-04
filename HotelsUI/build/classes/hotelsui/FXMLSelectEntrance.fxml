@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="328.0" prefWidth="256.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hotelsui.FXMLSelectEntranceController">
+   <children>
+      <TableView fx:id="BuyEntranceTable" prefHeight="279.0" prefWidth="256.0">
+        <columns>
+          <TableColumn fx:id="HotelName" prefWidth="95.0" text="Hotel Name" />
+          <TableColumn fx:id="HotelID" prefWidth="63.0" text="Hotel ID" />
+            <TableColumn fx:id="EntranceCost" prefWidth="97.0" text="Entrance Cost" />
+        </columns>
+      </TableView>
+      <Button fx:id="SelectedEntrance" layoutX="112.0" layoutY="290.0" mnemonicParsing="false" onAction="#SelectEntrance" text="OK" />
+   </children>
+</AnchorPane>
